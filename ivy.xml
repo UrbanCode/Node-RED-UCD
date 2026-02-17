@@ -1,0 +1,17 @@
+<ivy-module version="2.0">
+    <!--
+        © Copyright IBM Corporation 2014, 2016.
+        This is licensed under the following license.
+        The Eclipse Public 1.0 License (http://www.eclipse.org/legal/epl-v10.html)
+        U.S. Government Users Restricted Rights:  Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+    -->
+    <info organisation="com.ibm.urbancode" module="dependencies"/>
+    <configurations>
+        <conf name="default" description="Jars used during runtime"/>
+        <conf name="build" description="Jars used during build"/>
+        <conf name="test" description="Jars used during testing"/>
+    </configurations>
+    <dependencies>
+        <dependency org="com.ibm.urbancode.plugins" name="groovy-plugin-utils" rev="1.0" transitive="false" conf="default->default"/>
+    </dependencies>
+</ivy-module>
